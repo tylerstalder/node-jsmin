@@ -1,7 +1,10 @@
 {
    "name": "jsmin",
    "version": "1.0.0",
-   "main": "jsmin",
+   "main": "./lib",
+   "bin": {
+      "jsmin": "./bin/cli.js"
+   },
    "description": "A node.js module for javascript minification",
    "keywords": [
        "jsmin",
